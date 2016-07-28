@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="co.ohlora.userapp.SignUpActivity">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:src="@drawable/common_ic_googleplayservices" />
+
+    <LinearLayout
+        android:id="@+id/layout_email_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ID : "
+                android:textSize="15dp"
+                android:layout_weight="0.4"/>
+            <EditText
+                android:id="@+id/field_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:layout_weight="0.6"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="PASSWD : "
+                android:textSize="15dp"
+                android:layout_weight="0.4"/>
+            <EditText
+                android:id="@+id/field_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:layout_weight="0.6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="아파트 주소 : "
+                android:textSize="15dp"
+                android:layout_weight="0.4"/>
+            <EditText
+                android:id="@+id/field_apart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:hint="아파트 주소"
+                android:maxLines="1"
+                android:layout_weight="0.6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="아파트 호수 : "
+                android:textSize="15dp"
+                android:layout_weight="0.4"/>
+            <EditText
+                android:id="@+id/field_home"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:hint="아파트 호수"
+                android:maxLines="1"
+                android:layout_weight="0.6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="연락처 : "
+                android:textSize="15dp"
+                android:layout_weight="0.4"/>
+            <EditText
+                android:id="@+id/field_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:hint="연락처"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:layout_weight="0.6"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_email_password"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_sign_up"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Up" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
