@@ -1,0 +1,82 @@
+@charset "utf-8";
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+
+h1{
+  font-size: 40px;
+  text-align : center;
+  margin-bottom: 60px;
+}
+
+
+
+.inside-first{
+
+  height : 100px;
+  width : 300px;
+  margin-top : 15px;
+
+}
+.inside-second-left{
+  background-color :white;
+  height : 100px;
+  width : 130px;
+  float:  left;
+  text-align : center;
+  font-size : 30px;
+
+
+
+}
+
+.inside-second-right{
+  background-color : white;
+  height : 100px;
+  width : 130px;
+  float : right;
+  text-align : center;
+  font-size : 30px;
+}
+
+#one-left3{
+  background-color: red;
+}
+#three-right2{
+  background-color: yellow;
+}
+
+
+
+.num1 {
+  height: 700px;
+  width : 300px;
+  background-color : gray;
+  padding:10px;
+  border: 10px;
+}
+
+#container {
+  alignment: center;
+
+}
+
+#num1{
+  float: left;
+  margin-left : 10%;
+}
+#num2{
+  margin: 0 auto;
+}
+#num3{
+  float : right;
+  margin-right : 10%
+}
+#one {
+  alignment : center;
+
+}
