@@ -2,6 +2,10 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background:url("bg3.jpg");
+  background-repeat : no-repeat;
+  background-size: 100% 200%;
+  background-position-y : -1000px;
 }
 a {
   color: #00B7FF;
@@ -19,45 +23,104 @@ h1{
 
   height : 100px;
   width : 300px;
-  margin-top : 15px;
+  margin-top : 40px;
 
 }
 .inside-second-left{
   background-color :white;
-  height : 100px;
-  width : 130px;
+  height : 120px;
+  width : 120px;
   float:  left;
   text-align : center;
   font-size : 30px;
-
+  margin-left : 15px;
 
 
 }
 
 .inside-second-right{
   background-color : white;
-  height : 100px;
-  width : 130px;
+  height : 120px;
+  width : 120px;
   float : right;
   text-align : center;
   font-size : 30px;
+  margin-right : 15px;
+}
+#four-right3{
+  background-color : #ff441e;
+  background-size : 120px 120px;
+  background-image: url("white-fire.png") ;
+  background-repeat : no-repeat;
+}
+#four-left3{
+  background-color : #ffea46;
+  background-size : 120px 120px;
+  background-image: url("white-smog.png") ;
+  background-repeat : no-repeat;
+}
+#five-left3{
+  background-color : #ffea46;
+  background-size : 120px 120px;
+  background-image: url("white-smog.png") ;
+  background-repeat : no-repeat;
+}
+#three-right3{
+  background-color : #ffea46;
+  background-size : 120px 120px;
+  background-image: url("white-smog.png") ;
+  background-repeat : no-repeat;
+}
+#three-left3{
+  background-color : #ffea46;
+  background-size : 120px 120px;
+  background-image: url("white-smog.png") ;
+  background-repeat : no-repeat;
+}
+#five-right3{
+  background-color : #ffea46;
+  background-size : 120px 120px;
+  background-image: url("white-smog.png") ;
+  background-repeat : no-repeat;
 }
 
+#three-left2{
+  background-color : #868686;
+  background-size : 120px 120px;
+  background-image: url("white-repair.png") ;
+  background-repeat : no-repeat;
+}
+
+
+#three-left{
+  background-size : auto;
+  background-image: url("ultari2.jpg") ;
+  background-repeat : no-repeat;
+
+}
 #one-left3{
-  background-color: red;
+
+  background-size : auto;
+  background-image: url("ultari2.jpg") ;
+  background-repeat : no-repeat;
 }
 #three-right2{
-  background-color: yellow;
+  background-size : auto;
+  background-image: url("ultari2.jpg") ;
+  background-repeat : no-repeat;
 }
 
 
 
 .num1 {
-  height: 700px;
+  height: 1000px;
   width : 300px;
-  background-color : gray;
+  /**background-color : gray;  **/
   padding:10px;
+  padding-top:60px;
+  padding-bottom : 30px;
   border: 10px;
+
 }
 
 #container {
@@ -67,14 +130,26 @@ h1{
 
 #num1{
   float: left;
-  margin-left : 10%;
+  margin-left : 20%;
+  background-size : auto;
+  background-image: url("101.png") ;
+  background-repeat : no-repeat;
+
 }
 #num2{
   margin: 0 auto;
+  background-size : auto;
+  background-image: url("102.png") ;
+  background-repeat : no-repeat;
+
 }
 #num3{
   float : right;
-  margin-right : 10%
+  margin-right : 20%;
+  background-size : auto;
+  background-image: url("103.png") ;
+  background-repeat : no-repeat;
+
 }
 #one {
   alignment : center;
