@@ -1,0 +1,270 @@
+@charset "utf-8";
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background:url("back.png");
+  background-repeat : no-repeat;
+  background-size: 100% 125%;
+  background-position-y : -250px;
+  position : relative ;
+  z-index : -4;
+
+}
+a {
+  color: #00B7FF;
+}
+
+h1{
+  font-size: 40px;
+  text-align : center;
+  margin-bottom: 60px;
+}
+
+
+
+.inside-first{
+
+  height : 14%;
+  width : 110%;
+  margin-top : 20px;
+  margin-right: 80px;
+
+
+}
+
+.middle_inner{
+  background-color :white;
+  height : 120px;
+  width : 160px;
+  float:  left;
+  text-align : center;
+  font-size : 30px;
+  margin-left : 18px;
+
+
+}
+
+#three-right2{
+  background-size : 50% 60%;
+  background-image: url("firesmog.png") ;
+  background-repeat : no-repeat;
+  background-position-x : 130px;
+  background-position-y : 30px;
+}
+
+
+
+.inside-second-right{
+
+  height : 100%;
+  width : 45%;
+  float : right;
+  text-align : center;
+  font-size : 30px;
+  margin-right : 50px;
+  background-size : 50% 60%;
+/*background-image: url("firesmog.png") ; */
+  background-repeat : no-repeat;
+  background-position-x : 130px;
+  background-position-y : 30px;
+
+
+}
+
+.end_inner{
+
+
+  height : 70%;
+  width : 230px;
+  margin-left:25px;
+  margin-top :18%;
+  background-size : 100% 100%;
+  background-image: url("201.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+
+
+
+}
+
+
+.inside-second-left{
+
+  height : 100%;
+  width : 43%;
+  float: left;
+  text-align : center;
+  font-size : 30px;
+  margin-left : 40px;
+
+  background-size : 50% 60%;
+  /*background-image: url("smoking.png") ; */
+  background-repeat : no-repeat;
+  background-position-x : 130px;
+  background-position-y : 30px;
+
+
+
+
+
+}
+
+
+#one-left{
+  background-size : 120px 120px;
+  background-repeat : no-repeat;
+}
+
+
+
+#inner_six_left{
+  background-size : 100% 100%;
+  background-image: url("101.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_six_right{
+  background-size : 100% 100%;
+  background-image: url("102.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_five_left{
+  background-size : 100% 100%;
+  background-image: url("201.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_five_right{
+  background-size : 100% 100%;
+  background-image: url("202.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_four_left{
+  background-size : 100% 100%;
+  background-image: url("301.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_four_right{
+  background-size : 100% 100%;
+  background-image: url("302.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_three_left{
+   background-size : 100% 100%;
+   background-image: url("401.png") ;
+   background-repeat : no-repeat;
+   position: relative;
+   z-index : -2;
+ }
+
+#inner_three_right{
+  background-size : 100% 100%;
+  background-image: url("402.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_two_left{
+  background-size : 100% 100%;
+  background-image: url("501.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_two_right{
+  background-size : 100% 100%;
+  background-image: url("502.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_one_left{
+  background-size : 100% 100%;
+  background-image: url("601.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+#inner_one_right{
+  background-size : 100% 100%;
+  background-image: url("602.png") ;
+  background-repeat : no-repeat;
+  position: relative;
+  z-index : -2;
+}
+
+
+.num1 {
+  height: 1500px;
+  width : 700px;
+  /**background-color : gray;  **/
+  padding:10px;
+  padding-top:120px;
+  padding-left:50px;
+  padding-bottom : 30px;
+  border: 10px;
+}
+
+.num2 {
+  height: 1000px;
+  width : 1000px;
+  /**background-color : gray;  **/
+  padding:10px;
+  padding-top:120px;
+  padding-left:50px;
+  padding-bottom : 30px;
+  border: 10px;
+  margin-left : 100px;
+  margin-top : 280px;
+
+}
+
+#container {
+  alignment: center;
+
+}
+
+
+
+#num3{
+  float : right;
+  margin-right : 20%;
+  background-size : 750px 1700px;
+  background-image: url("apartment2.png") ;
+  background-repeat : no-repeat;
+  position : relative;
+  z-index : -2;
+}
+#num1{
+  float: left;
+  margin-left : 20%;
+  background-size : 1000px 1000px;
+  background-image: url("structure.png") ;
+  background-repeat : no-repeat;
+
+}
+#one {
+  alignment : center;
+
+}

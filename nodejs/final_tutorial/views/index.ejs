@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <title>G.T.A.7</title>
+  <link rel="stylesheet" href="stylesheets/style.css" type="text/css"/>
+  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+
+      var fire = " ";
+      var smog =9;
+      smog.number;
+      const config = {
+        apiKey: "AIzaSyAylgXw6-gXq9MhwY88pfiC4-b6J3l7P4I",
+        authDomain: "graduateproto.firebaseapp.com",
+        databaseURL: "https://graduateproto.firebaseio.com",
+        storageBucket: "graduateproto.appspot.com",
+      };
+      firebase.initializeApp(config);
+
+
+      var ref = firebase.database().ref('address');
+      ref.child("/").on('child_changed', function (snap) {
+        fire = snap.child('101/fire').val();
+        smog = snap.child('101/smoke').val();
+        if(fire == 'yes'){
+           document.getElementById('six-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+           document.getElementById('six-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('102/fire').val();
+        smog = snap.child('102/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('six-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('six-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('201/fire').val();
+        smog = snap.child('201/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('five-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('five-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('202/fire').val();
+        smog = snap.child('202/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('five-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('five-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+        fire = snap.child('301/fire').val();
+        smog = snap.child('301/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('four-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('four-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('302/fire').val();
+        smog = snap.child('302/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('four-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('four-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('401/fire').val();
+        smog = snap.child('401/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('three-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('three-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('402/fire').val();
+        smog = snap.child('402/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('three-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('three-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+        fire = snap.child('501/fire').val();
+        smog = snap.child('501/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('two-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('two-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('502/fire').val();
+        smog = snap.child('502/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('two-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('two-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('601/fire').val();
+        smog = snap.child('601/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('one-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('one-left2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+        fire = snap.child('602/fire').val();
+        smog = snap.child('601/smoke').val();
+        if(fire == 'yes'){
+          document.getElementById('one-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/firesmog.png')";
+        }else if(fire == 'no' && smog >20){
+          document.getElementById('one-right2').style.backgroundImage = "url('http://cyh1704.dothome.co.kr/image/smoking.png')";
+        }
+
+
+
+
+      });
+
+  </script>
+
+  <h1 style = "font-size : 60px "> 송도 에듀포레 푸르지오 아파트 </h1>
+</head>
+<body>
+
+<div id="container">
+
+  <div class = "num2" id = "num1">
+    <div class = "face" >
+
+    </div>
+  </div>
+
+
+  <div class ="num1" id =  "num3">
+    <div class ="inside-first" id = "one2">
+      <div class ="inside-second-left" id = "one-left2">
+        <div class = "end_inner" id = "inner_one_left">  </div>
+      </div>
+      <div class ="inside-second-right" id = "one-right2">
+        <div class = "end_inner" id = "inner_one_right">  </div>
+      </div>
+    </div>
+    <div class ="inside-first" id = "two2">
+      <div class ="inside-second-left" id = "two-left2">
+        <div class = "end_inner" id = "inner_two_left">  </div>
+      </div>
+      <div class ="inside-second-right" id = "two-right2">
+        <div class = "end_inner" id = "inner_two_right">  </div>
+      </div>
+    </div>
+    <div class ="inside-first" id = "three2">
+      <div class ="inside-second-left" id = "three-left2">
+        <div class = "end_inner" id = "inner_three_left">  </div>
+      </div>
+      <div class ="inside-second-right" id = "three-right2">
+        <div class = "end_inner" id = "inner_three_right">  </div>
+      </div>
+    </div>
+    <div class ="inside-first" id = "four2">
+      <div class ="inside-second-left" id = "four-left2">
+          <div class = "end_inner" id = "inner_four_left">  </div>
+      </div>
+      <div class ="inside-second-right" id = "four-right2">
+        <div class = "end_inner" id = "inner_four_right">  </div>
+      </div>
+    </div>
+    <div class ="inside-first" id = "five2">
+      <div class ="inside-second-left" id = "five-left2">
+        <div class = "end_inner" id = "inner_five_left">  </div>
+      </div>
+      <div class ="inside-second-right" id = "five-right2">
+        <div class = "end_inner" id = "inner_five_right">  </div>
+      </div>
+    </div>
+    <div class ="inside-first" id = "six2">
+      <div class ="inside-second-left" id = "six-left2">
+        <div class = "end_inner" id = "inner_six_left">  </div>
+      </div>
+      <div class ="inside-second-right" id = "six-right2">
+        <div class = "end_inner" id = "inner_six_right">  </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
