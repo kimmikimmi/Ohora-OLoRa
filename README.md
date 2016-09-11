@@ -1,7 +1,7 @@
 # Ohora-OLoRa - 
 
 작품명 G.T.A 7 (Golden time available within 7 minutes) : 2016 대한민국 S/W 해카톤 출품작
-![](devices.jpg)
+![](devices.jpeg)
 
 ---
 ##영상처리와 일산화탄소를 통해 화재를 감지하고 감지한 화재 정보를 Firebase DB에 저장, 그후 어플리케이션과 웹페이지에서 열람하는 시스템입니다.
