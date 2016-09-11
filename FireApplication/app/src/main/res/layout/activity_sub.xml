@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.ohlora.fireapplication.SubActivity">
+
+    <include layout="@layout/content_sub" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_floating"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="#B3E2F2"
+        android:src="@drawable/inner_floating" />
+
+</android.support.design.widget.CoordinatorLayout>
