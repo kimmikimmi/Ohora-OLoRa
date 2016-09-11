@@ -1,6 +1,7 @@
 # Ohora-OLoRa - 
 
 작품명 G.T.A 7 (Golden time available within 7 minutes) : 2016 대한민국 S/W 해카톤 출품작
+-이글이글 팀(김현준, 최요한, 한지민,석기열, 김수진)
 ![](devices.jpeg)
 
 ---
@@ -26,6 +27,8 @@
 - 화재지에서 감지한 화재정보를 관공서 서버로 전송할 때 활용
 ---
 ###소방관용 웹페이지와 안드로이드 어플리케이션
+![](android1.jpeg)
+![](android2.jpeg)
  - 서버에 업데이트 된 화재 정보를 열람.
  
 ---
