@@ -1,3 +1,4 @@
-g++ -o LoRA LoRA.cpp -std=c++11
-chmod +x LoRA
-./LoRA < LoRA.in
+g++ -o post_lora post_lora.cpp -std=c++14
+chmod 777 post_lora
+chmod 777 post_lora.cpp
+./post_lora
