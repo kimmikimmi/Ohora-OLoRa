@@ -30,7 +30,7 @@
 ###소방관용 웹페이지와 안드로이드 어플리케이션
 ![](android1.png)
 ![](android2.png)
- - 서버에 업데이트 된 화재 정보를 열람.
+ - 서버에 업데이트 된 화재 정보(화재지 사진, 실시간 현재인원 정보)를 열람.
  
 ---
 사용한 기술 : 아두이노, Lora모듈, 캠, openCV 3.0이상, Google Firebase, Nodejs, Android
