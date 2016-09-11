@@ -36,11 +36,17 @@
 ---
 사용한 기술 : 아두이노, Lora모듈, 캠, openCV 3.0이상, Google Firebase, Nodejs, Android
 ---
+###디렉토리 소개
 FiremanApp (소방관용 어플리케이션)
+
 UserApp (유저 어플리케이션)
+
 FlameDetection(영상처리를 통한 화재감지)
+
 nodeJS(web)
+
 client_cpp(GatewayToNode)
+
 
 LoRa Receive는 waspmote 예제코드를 활용하였음
 ---
