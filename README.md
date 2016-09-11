@@ -29,4 +29,5 @@
  
 ---
 사용한 기술 : 아두이노, Lora모듈, 캠, openCV 3.0이상, Google Firebase, Nodejs, Android
+
 ppt자료 참고 바람
